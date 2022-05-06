@@ -1,0 +1,9 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: aqua;
+}
+th,td {
+    border: 3px solid rgb(7, 0, 140);
+    padding: 1px;
+}

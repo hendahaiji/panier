@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Products</th>
+          <th>QTY</th>
+          <th>PRICE</th>
+          <th>SUM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <!-- Shopping cards -->
+            <div class="shopping-cards">
+              <div class="shopping-card">
+                <!-- Product image of smartphone -->
+                <span class="product-image">
+                  <img
+                    src="./images/lunette.jpg"
+                    alt="lunette de soliel DOLCE & GABBANA"
+                  />
+                </span>
+                <!-- Product description -->
+                <p>
+                  lunette de soliel DOLCE & GABBANA</p>
+              </div>
+            </div>
+          </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">265.00</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of Power Bank -->
+                    <span class="product-image">
+                      <img
+                        src="./images/parfum.jpg"
+                        alt="Scandal Eau de Parfum"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Scandal Eau de Parfum</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">29.00</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of Smart band -->
+                    <span class="product-image">
+                      <img
+                        src="./images/masque.jpg"
+                        alt="Masque anti point noir "
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Masque anti point noir </p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">65.00</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of car support for mobile -->
+                    <span class="product-image">
+                      <img
+                        src="./images/montre.jpg"
+                        alt="Montre en or rose"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Montre en or rose</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">13.70</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+          <td colspan="3">Total</td>
+          <td id="total"></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
